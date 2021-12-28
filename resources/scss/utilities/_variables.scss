@@ -1,3 +1,5 @@
+$base-lh: 1.15;
+
 $color-pri: #58e1c1;
 $color-sec: #777;
 $color-pri-light: lighten($color-pri, 30%);
@@ -5,4 +7,6 @@ $color-pri-dark: darken($color-pri, 30%);
 $color-pri-comp: complement($color-pri);
 $color-sec-comp: complement($color-sec);
 $color-ter:#51ddfc;
+
 $breakpoint-s: 768px;
+$breakpoint-l: 1400px;
