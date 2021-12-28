@@ -38,7 +38,7 @@ main {
  */
 
 h1 {
-  font-size: 2em;
+  font-size: $font-m;
   margin: 0.67em 0;
 }
 
@@ -62,8 +62,8 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: $font-fam; /* 1 */
+  font-size: $font-s; /* 2 */
 }
 
 /* Text-level semantics
@@ -105,8 +105,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: $font-fam; /* 1 */
+  font-size: $font-s; /* 2 */
 }
 
 /**
