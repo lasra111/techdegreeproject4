@@ -1,6 +1,7 @@
+@import '../utilities/variables';
 * {
   font-family: 'Lato', sans-serif;
-  color: #857;
+  color: $color-sec;
   box-sizing: border-box;
 }
 
@@ -12,17 +13,17 @@ a {
   text-decoration: none;
 }
 .headline-primary {
-  color: #58e1c1;
+  color: $color-pri;
   margin-left: 10px;
 }
 
 .headline-secondary {
   font-weight: 300;
-  color: #777;
+  color: $color-sec;
 }
 
 .link {
-  color: #51ddfc;
+  color: $color-ter;
   font-weight: 700;
 }
 
