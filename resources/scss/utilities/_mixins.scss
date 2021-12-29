@@ -31,3 +31,23 @@
   top:$top;
   overflow:$over;
 }
+@mixin flex-row($pad, $disp:flex, $dir:column) {
+  padding:$pad;
+  display: $disp;
+  flex-direction: $dir;
+}
+@mixin flex-col($bas, $top:10px, $minh:25px, $pad:10px, $brdr: 5px) {
+  flex-basis: $bas;
+  margin-top: $top;
+  min-height: $minh;
+  padding: $pad;
+  border-radius: $brdr;
+}
+@mixin img($disp:block, $left:auto, $right:auto, $top:null, $width:null) {
+  display: $disp;
+  margin-left: $left;
+  margin-right: $right;
+  margin-top: $top;
+  max-width: $width;
+  @content ;
+}
