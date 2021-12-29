@@ -15,6 +15,10 @@ $color-pri-dark: darken($color-pri, 30%);
 $color-pri-comp: complement($color-pri);
 $color-sec-comp: complement($color-sec);
 $color-ter:#51ddfc;
+$color-err:#e4757a;
+$color-info:#927bc1;
+$color-succ:#63cc82;
+$color-warn:#fd7856;
 
 $breakpoint-s: 768px;
 $breakpoint-l: 1400px;

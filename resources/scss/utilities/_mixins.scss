@@ -1,8 +1,25 @@
 @mixin blockquote {
   font-size: $font-m;
-  font-weight: 300;
+  font-weight: $font-weight-light;
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
   @content ;
+}
+@mixin button {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  @content ;
+}
+@mixin input($w,$disp:block, $mar:10px auto 0, $brdr:none, $pad:10px, $brdr-bot:5px solid $color-pri) {
+  width: $w;
+  display:$disp;
+  margin: $mar;
+  border: $brdr;
+  padding: $pad;
+  border-bottom: $brdr-bot;
 }
