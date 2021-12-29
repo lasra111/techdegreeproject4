@@ -23,3 +23,11 @@
   padding: $pad;
   border-bottom: $brdr-bot;
 }
+@mixin hidden($w, $h, $pos:absolute, $left:-10000px, $top:auto, $over:hidden) {
+  width:$w;
+  height:$h;
+  position:$pos;
+  left:$left;
+  top:$top;
+  overflow:$over;
+}
