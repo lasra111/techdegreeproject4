@@ -3,6 +3,9 @@
 @include button {
   border-radius: 5px;
 }
+  &:hover {
+    background-color: $color-pri-light;
+  }
 }
 
 .default {
