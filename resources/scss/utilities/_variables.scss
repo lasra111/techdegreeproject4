@@ -10,15 +10,18 @@ $font-weight-heavy: 700;
 
 $color-pri: #58e1c1;
 $color-sec: #777;
-$color-pri-light: lighten($color-pri, 30%);
+$color-pri-light: lighten($color-pri, 20%);
 $color-pri-dark: darken($color-pri, 30%);
 $color-pri-comp: complement($color-pri);
 $color-sec-comp: complement($color-sec);
 $color-ter:#51ddfc;
 $color-err:#e4757a;
+$color-err-light: lighten(#e4757a, 20%);
 $color-info:#927bc1;
+$color-info-light: lighten(#927bc1, 20%);
 $color-succ:#63cc82;
+$color-succ-light:lighten(#63cc82, 20%);
 $color-warn:#fd7856;
-
+$color-warn-light:lighten(#fd7856, 20%);
 $breakpoint-s: 768px;
 $breakpoint-l: 1400px;

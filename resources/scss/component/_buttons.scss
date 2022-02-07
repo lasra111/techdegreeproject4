@@ -14,16 +14,28 @@
 
 .error {
   background-color: $color-err;
+  &:hover {
+    background-color:$color-err-light;
+  }
 }
 
 .info {
   background-color: $color-info;
+  &:hover {
+    background-color:$color-info-light;
+  }
 }
 
 .success {
   background-color: $color-succ;
+  &:hover {
+    background-color:$color-succ-light;
+  }
 }
 
 .warning {
   background-color: $color-warn;
+  &:hover {
+    background-color:$color-warn-light;
+  }
 }
