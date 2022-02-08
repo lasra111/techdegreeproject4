@@ -1,5 +1,5 @@
 @import '../variables'
-@function px-to-pc($target, $context:$breakpoint-l){
+@function px-to-pc ($target, $context:$breakpoint-l){
 @return ($target/$context) * 100
 }
 
