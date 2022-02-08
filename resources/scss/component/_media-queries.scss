@@ -15,7 +15,7 @@
 }
 
 [class^=col] {
-  @include flexy($just:center);
+  @include flexy($just:center)
   margin-top: 0;
   align-items: center;
 }

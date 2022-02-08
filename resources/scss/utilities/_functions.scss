@@ -1,6 +1,6 @@
-@import '../variables'
-@function px-to-pc ($target, $context:$breakpoint-l){
-@return ($target/$context) * 100
+@import 'variables';
+@function px-to-pc($target, $context:$breakpoint-l) {
+@return ($target/$context) * 100;
 }
 
 @function per-line($items) {
