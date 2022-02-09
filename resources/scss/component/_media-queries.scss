@@ -33,27 +33,27 @@
 }
 
 .col-3 {
-  flex:per-line(4);
+  flex-basis:25%;
 }
 
 .col-4 {
-  flex:per-line(3);
+  flex-basis:33.33%;
 }
 
 .col-5 {
-  flex: per-line(2);
+  flex-basis:41.67%;
 }
 
 .col-6 {
-  flex: per-line(2);
+  flex-basis:50%;
 }
 
 .col-7 {
-  flex: per-line(2);
+  flex-basis:58.33%;
 }
 
 .col-8 {
-  flex: per-line(2);
+  flex-basis:66.67%;
 }
 
 .col-9 {
